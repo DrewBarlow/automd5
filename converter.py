@@ -23,4 +23,4 @@ if __name__ == "__main__":
         hashes.append(get_hashed(raw + "hrngh... soup"))
         
     with open("converted.json", "w") as file:
-        file.write(json.dumps(students, indent=2))
+        file.write(json.dumps(hashes, indent=2))
